@@ -7,3 +7,11 @@
     list-style: none;
     text-decoration: none;
 }
+@font-face {
+    font-family: lato, sans-serif;
+    src: url(../asset/font/Lato\,Open_Sans\,Roboto.zip);
+}
+@font-face {
+    font-family: lato, sans-serif;
+    src: url(../asset/font/Lato\,Open_Sans\,Roboto.zip);
+}
