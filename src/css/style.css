@@ -1,0 +1,77 @@
+
+body{
+height: 100vh;
+background-color: var(--secundary-color);
+}
+
+.task-header{
+    display: flex;
+    background-color: var(--backround-color);
+    color: var(--text-color);
+    
+}
+.task-header__title{
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+.player-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    gap: var(--margin-base);
+    padding: var(--padding-large); 
+    justify-items: center;
+   
+}
+
+.player-card{
+
+    margin:var(--margin-xl);
+    border: 2px solid var(--primary-color);
+    background-color: var(--backround-color);
+    /* used object-fit:cover so that the information does not escape the box */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.player-card__name{
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid var(--primary-color);
+    color: var(--text-color);
+}
+
+.player-card__info-item{
+    text-align: center;
+    color: var(--text-color);
+    text-decoration:underline
+}
+
+.player-card__image{
+    height: 100%;
+    object-fit: cover;  
+}
+
+
+.page-footer{
+    /* display: flex;
+    /* align-items: center;
+    justify-content: center; */ 
+    text-align: center;
+    background-color: var(--backround-color);
+    color: var(--text-color);
+    border: 2px solid var(--primary-color);
+}
+
+
+
+
+
+
+
+
