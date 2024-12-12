@@ -12,4 +12,4 @@ Features
 Player Cards: Interactive cards with player details.
 Responsive Design: Grid layout adapts to different screen sizes for better usability.
 Styled Footer: Includes copyright information with centered alignment.
-Clean and Accessible Layout: Modern design using flexbox and grid for structure.
+Clean and Accessible Layout: Modern design using flexbox and grid for structure.git 
